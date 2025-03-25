@@ -1,11 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio | Douglas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logotipo de Douglas">
+        </div>
+        <nav>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <section id="home">
+        <div class="intro">
+            <h1>Douglas</h1>
+            <p>Desenvolvedor Front-End | Analista e Desenvolvedor | Engenheiro de Software em Formação</p>
+            <p>Transformando ideias em experiências digitais impactantes.</p>
+            <p>Com mais de 2 anos de experiência, desenvolvo soluções modernas e eficientes, garantindo qualidade e desempenho em cada projeto.</p>
+            <button class="cta">Saiba Mais</button>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor front-end apaixonado por tecnologia, análise e engenharia de software. Tenho experiência na criação de interfaces interativas e otimizadas, utilizando tecnologias modernas para proporcionar a melhor experiência ao usuário.</p>
+        <p>Atualmente, estou me formando como Engenheiro de Software e aprimorando minhas habilidades em desenvolvimento full stack.</p>
+        <p>Minha jornada na tecnologia começou com a curiosidade sobre como os sites funcionam. Desde então, venho aprimorando minhas habilidades com HTML, CSS, JavaScript e frameworks modernos como React. Meu objetivo é criar aplicações funcionais e esteticamente atraentes.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React.js, Next.js</li>
+            <li>Node.js, Express</li>
+            <li>Banco de Dados SQL e NoSQL</li>
+            <li>Versionamento com Git e GitHub</li>
+            <li>GSAP para animações dinâmicas</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projetos</h2>
+        <div class="project-grid">
+            <div class="project-card">Projeto 1</div>
+            <div class="project-card">Projeto 2</div>
+            <div class="project-card">Projeto 3</div>
+            <div class="project-card">Projeto 4</div>
+            <div class="project-card">Projeto 5</div>
+        </div>
+        <a href="projetos.html" class="btn-ver-mais">Ver Todos os Projetos</a>
+    </section>
+    
+    <section id="services">
+        <h2>Serviços</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites modernos, responsivos e otimizados para garantir a melhor experiência do usuário.</p>
+            </div>
+            <div class="service-card">
+                <h3>Aplicações Web</h3>
+                <p>Desenvolvimento de aplicações interativas e escaláveis utilizando tecnologias avançadas.</p>
+            </div>
+            <div class="service-card">
+                <h3>Consultoria e Manutenção</h3>
+                <p>Otimização e manutenção de sistemas já existentes para garantir performance e segurança.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo para discutir seu projeto ou oportunidade profissional.</p>
+        <form>
+            <input type="text" placeholder="Seu Nome">
+            <input type="email" placeholder="Seu E-mail">
+            <textarea placeholder="Sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="./js/gsap.js"></script>
 </body>
 </html>
